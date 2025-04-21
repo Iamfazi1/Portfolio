@@ -40,12 +40,9 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
 </p>
 
 # Featured Projects
-
-Here are some of my projects. 🕵️‍♂️ You can explore the ones that pique your interest.
-
 | **Project**                                   | **Description**                                                                 | **Link**                                                                                     |
 | --------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | [Click here to explore the Phishing Email Reports & Analysis folder]([https://github.com/Iamfazi1/Portfolio/blob/main/Phishing%20Email%20Reports%20&%20Analys](https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports) |
+| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | <a href="https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports" style="background-color: #39ff14; color: #0a0a0a; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: background-color 0.3s ease;">Click here to explore</a> |
 
 ---
 
