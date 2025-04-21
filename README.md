@@ -45,7 +45,7 @@ Here are some of my projects. 🕵️‍♂️ You can explore the ones that piq
 
 | **Project**                                   | **Description**                                                                 | **Link**                                                                                     |
 | --------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | [Click here to explore the Phishing Email Reports & Analysis folder](https://github.com/Iamfazi1/Portfolio/blob/main/Phishing%20Email%20Reports%20&%20Analys) |
+| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | [Click here to explore the Phishing Email Reports & Analysis folder]([https://github.com/Iamfazi1/Portfolio/blob/main/Phishing%20Email%20Reports%20&%20Analys](https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports) |
 
 ---
 
