@@ -12,4 +12,4 @@ Under the following terms:
 
 Full License Text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
-Copyright © 2025 Faizan (Iamfazi1). All rights reserved.
+Copyright ©2025 Faizan (Iamfazi1). All rights reserved.
