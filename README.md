@@ -20,13 +20,22 @@ I've spent more hours than I'd care to admit studying, certifying, and building 
 
 Check out my reports, analysis, and the occasional *not-so-serious* project. I'm here to help make sure the only thing that gets compromised is your idea of “safe browsing.” 😎
 
-
 ---
-# Featured Projects
 
-| **Project**                                   | **Description**                                                     | **Link**                                                                                     |
-| --------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Phishing Email Reports & Analysis**         | Real Phishing Emails from the Dark Web, Analyzed, Reported, and Validated for False Positives | <a href="https://github.com/Iamfazi1/Portfolio/blob/main/Phishing%20Emails%20/Warning.md" style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease;">Click here to explore</a> |
+## 🔥 **Featured Projects** 🔥
+
+<p align="center">
+  <a href="https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports" 
+     style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px;">
+    🔓 Phishing Email Reports & Analysis
+  </a>
+</p>
+
+<p align="center">
+  <i>🔎 Analyzed real phishing emails from the dark web. Reported false positives/negatives.</i>
+</p>
+
+
 ---
 ## 🛠️ Tools & Tech Stack
 
