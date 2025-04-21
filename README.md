@@ -55,17 +55,6 @@ Here are some of my projects. 🕵️‍♂️ You can explore the ones that piq
   </a>
 </p>
 
-
----
-
-<p align="center">
-  <a href="https://github.com/Iamfazi1" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=Iamfazi1&show_icons=true&theme=radical" alt="My GitHub Stats">
-  </a>
-</p>
- and dynamic analysis techniques, and created comprehensive reports on the discovered threats. My findings are shared with the community to help raise awareness.
-
-
 ---
 
 ## 🧾 Certifications
