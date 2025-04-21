@@ -35,26 +35,17 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
 </p>
 
 ---
-
 <p align="center">
   <img src="your-image-url.gif" width="200" alt="Cool Project Image">
 </p>
 
 # Featured Projects
 
-Here are some of the fun and serious projects I've worked on! 🚀
+Here are some of my projects. 🕵️‍♂️ You can explore the ones that pique your interest.
 
-1. **Phishing Email Analysis Tool**  
-   A tool for analyzing and identifying phishing emails. It automates email scans and detects suspicious links, attachments, and domains. Perfect for any organization wanting to avoid falling for phishing scams!
-
-2. **Intrusion Detection System**  
-   Set up and configured an IDS/IPS system using Suricata to monitor and block malicious network activity. It helped improve the security posture of the infrastructure it was deployed on.
-
-3. **SOC Analyst Training**  
-   I worked on building a lab environment for simulating real-world cybersecurity threats using tools like Splunk and Wireshark. It's a hands-on project designed to help any new SOC analyst get the experience they need.
-
-4. **Malware Analysis**  
-   Analyzed malware using static and dynamic analysis techniques, and created comprehensive reports on the discovered threats. My findings are shared with the community to help raise awareness.
+| **Project**                                   | **Description**                                                                 | **Link**                                                                                     |
+| --------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | [Click here to explore the Phishing Email Reports & Analysis folder](https://github.com/Iamfazi1/Portfolio/blob/main/Phishing%20Email%20Reports%20&%20Analys) |
 
 ---
 
@@ -63,6 +54,17 @@ Here are some of the fun and serious projects I've worked on! 🚀
     <img src="https://github-readme-stats.vercel.app/api?username=Iamfazi1&show_icons=true&theme=radical" alt="My GitHub Stats">
   </a>
 </p>
+
+
+---
+
+<p align="center">
+  <a href="https://github.com/Iamfazi1" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api?username=Iamfazi1&show_icons=true&theme=radical" alt="My GitHub Stats">
+  </a>
+</p>
+ and dynamic analysis techniques, and created comprehensive reports on the discovered threats. My findings are shared with the community to help raise awareness.
+
 
 ---
 
