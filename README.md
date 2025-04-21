@@ -10,12 +10,16 @@
 
 ---
 
-## 👨‍💻 About Me
+## About This Portfolio
 
-- 💼 SOC Analyst (Entry-Level) 🔍 | Cybersecurity Portfolio Creator
-- 🧠 I love analyzing **phishing emails**, breaking down threats & reporting them.
-- 🛠 Currently working on building malware lab + learning **SIEM**, **EDR**, and **XDR** tools.
-- 📁 Check out my [Phishing Report Series](#-featured-projects)
+Welcome to my portfolio! 🚨
+
+If you're here, you're probably looking for a cybersecurity pro who can sniff out phishing attempts, break into (virtual) systems, and make sure your network doesn’t get hacked — and hey, that's exactly what I do. 
+
+I've spent more hours than I'd care to admit studying, certifying, and building tools to make the internet a safer place. My toolbox includes everything from **EDR** and **SIEM** tools to **firewalls** and **SOC analyst skills**. 
+
+Check out my reports, analysis, and the occasional *not-so-serious* project. I'm here to help make sure the only thing that gets compromised is your idea of “safe browsing.” 😎
+
 
 ---
 
@@ -32,13 +36,33 @@
 
 ---
 
-## 🧪 Featured Projects
+<p align="center">
+  <img src="your-image-url.gif" width="200" alt="Cool Project Image">
+</p>
 
-| 📁 Project Name | 🔍 Focus | 📎 Files |
-|----------------|----------|---------|
-| [Phishing Report 001](./Phishing-Reports/Report-001-Google-Phish.md) | Header + IOC Analysis | PDF, Screenshot |
-| [Phishing Report 002](./Phishing-Reports/Report-002-Outlook-Lure.md) | Phishing Lure Breakdown | PDF, PCAP |
-| [Animated Tools Experience](./Tools-Experience/index.html) | Visualized Skill Tracker | HTML |
+# Featured Projects
+
+Here are some of the fun and serious projects I've worked on! 🚀
+
+1. **Phishing Email Analysis Tool**  
+   A tool for analyzing and identifying phishing emails. It automates email scans and detects suspicious links, attachments, and domains. Perfect for any organization wanting to avoid falling for phishing scams!
+
+2. **Intrusion Detection System**  
+   Set up and configured an IDS/IPS system using Suricata to monitor and block malicious network activity. It helped improve the security posture of the infrastructure it was deployed on.
+
+3. **SOC Analyst Training**  
+   I worked on building a lab environment for simulating real-world cybersecurity threats using tools like Splunk and Wireshark. It's a hands-on project designed to help any new SOC analyst get the experience they need.
+
+4. **Malware Analysis**  
+   Analyzed malware using static and dynamic analysis techniques, and created comprehensive reports on the discovered threats. My findings are shared with the community to help raise awareness.
+
+---
+
+<p align="center">
+  <a href="https://github.com/Iamfazi1" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api?username=Iamfazi1&show_icons=true&theme=radical" alt="My GitHub Stats">
+  </a>
+</p>
 
 ---
 
