@@ -31,10 +31,20 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
   </a>
 </p>
 
-<p align="center">
-  <i>🔎 Analyzed real phishing emails from the dark web. Reported false positives/negatives.</i>
+<p align="center" style="font-size: 18px; font-weight: 500; color: #333;">
+  🔎 **I took real phishing emails sourced from the dark web, analyzed their structure, payloads, and tactics, and reported on their false positives and negatives. This analysis provides a critical look into the methods used by cybercriminals.**
 </p>
 
+<p align="center">
+  <a href="https://github.com/Iamfazi1/Portfolio/tree/main/Malware%20Analysis%20" 
+     style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px;">
+    🧪 Malware Analysis Reports
+  </a>
+</p>
+
+<p align="center" style="font-size: 18px; font-weight: 500; color: #333;">
+  🕵️‍♂️ **I analyzed real-world malware samples, documenting their behavior, attack vectors, and impacts on systems. Detailed reports uncover the dangers of these threats and guide defenders in better protection strategies.**
+</p>
 
 ---
 ## 🛠️ Tools & Tech Stack
