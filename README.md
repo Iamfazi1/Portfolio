@@ -42,7 +42,7 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
 # Featured Projects
 | **Project**                                   | **Description**                                                                 | **Link**                                                                                     |
 | --------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | <a href="https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports" style="background-color: #39ff14; color: #0a0a0a; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: background-color 0.3s ease;">Click here to explore</a> |
+| **Phishing Email Reports & Analysis**         | A deep dive into phishing email analysis with detailed reports and findings.    | <a href="https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports" style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease;">Click here to explore</a> |
 
 ---
 
