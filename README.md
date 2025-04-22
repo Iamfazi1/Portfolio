@@ -46,6 +46,18 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
   I analyzed real-world malware samples, documenting their behavior, attack vectors, and impacts on systems. Detailed reports uncover the dangers of these threats and guide defenders in better protection strategies.
 </p>
 
+<p align="center">
+  <a href="https://github.com/Iamfazi1/CVS-Splitter-and-Email-Enhancer" 
+     style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px; font-family: 'Arial', sans-serif;">
+    📄 CSV Splitter & Email Enhancer Tool
+  </a>
+</p>
+
+<p align="center" style="font-size: 18px; font-weight: bold; color: #333; font-family: 'Arial', sans-serif;">
+  A custom-built Python tool that splits large CSV files into individual email reports and enhances each with extracted artifacts like sender, receiver, IPs, links, and more — all in a clean, readable format for analysts.
+</p>
+
+
 ---
 ## 🛠️ Tools & Tech Stack
 
