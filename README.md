@@ -25,7 +25,7 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
 ## 🔥 **Featured Projects** 🔥
 
 <p align="center">
-  <a href="https://github.com/Iamfazi1/Portfolio/tree/main/PhishingReports" 
+  <a href="https://github.com/Iamfazi1/Portfolio/tree/main/Phishing%20Emails%20" 
      style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px; font-family: 'Arial', sans-serif;">
     🔓 Phishing Email Reports & Analysis
   </a>
