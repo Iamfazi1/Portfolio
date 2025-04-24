@@ -25,6 +25,17 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
 ## 🔥 **Featured Projects** 🔥
 
 <p align="center">
+  <a href="https://github.com/Iamfazi1/Portfolio/tree/main/60%20Days%20of%20SOC%20Challenge%20" 
+     style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px; font-family: 'Arial', sans-serif;">
+    🛡️ 60 Days of SOC Challenge
+  </a>
+</p>
+
+<p align="center" style="font-size: 18px; font-weight: bold; color: #333; font-family: 'Arial', sans-serif;">
+  A 60-day hands-on journey performing daily SOC analyst tasks including threat detection, log analysis, malware investigation, SIEM use, and alert triaging. Each day features real-world use cases, custom scripts, and practical tooling with full documentation and code. Built to show real blue team skills for recruiters and hiring managers.
+</p>
+
+<p align="center">
   <a href="https://github.com/Iamfazi1/Portfolio/tree/main/Phishing%20Emails%20" 
      style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px; font-family: 'Arial', sans-serif;">
     🔓 Phishing Email Reports & Analysis
