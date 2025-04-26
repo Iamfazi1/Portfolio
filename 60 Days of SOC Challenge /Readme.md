@@ -26,6 +26,33 @@ It includes:
 - ✅ AND documentation of everything I do
 
 ---
+# 📂 Project Structure
+
+This repository is organized by days.  
+Each day contains 3 main files:
+
+- **1_Task_Explanation.md** → Explains the assigned task in detail.
+- **2_Performing_Guide.md** → Step-by-step guide on how to perform the task.
+- **3_Result_Share.md** → Results and findings after performing the task.
+
+## 📅 Day-wise Structure
+
+```
+Day 1/
+ ├── 1_Task_Explanation.md
+ ├── 2_Performing_Guide.md
+ └── 3_Result_Share.md
+
+Day 2/
+ ├── 1_Task_Explanation.md
+ ├── 2_Performing_Guide.md
+ └── 3_Result_Share.md
+
+Day 3/
+ ├── 1_Task_Explanation.md
+ ├── 2_Performing_Guide.md
+ └── 3_Result_Share.md
+```
 
 ### ⚠️ Authenticity Disclaimer
 
