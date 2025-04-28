@@ -1,0 +1,221 @@
+Received: from MN0PR19MB6407.namprd19.prod.outlook.com (::1) by
+ MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Wed, 7 Sep 2022 19:37:12
+ +0000
+Received: from MW2PR16CA0001.namprd16.prod.outlook.com (2603:10b6:907::14) by
+ MN0PR19MB6407.namprd19.prod.outlook.com (2603:10b6:208:3c0::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5588.15; Wed, 7 Sep
+ 2022 19:37:01 +0000
+Received: from MW2NAM04FT014.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:907:0:cafe::77) by MW2PR16CA0001.outlook.office365.com
+ (2603:10b6:907::14) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5612.14 via Frontend
+ Transport; Wed, 7 Sep 2022 19:37:01 +0000
+Authentication-Results: spf=pass (sender IP is 94.231.103.45)
+ smtp.mailfrom=netwrksecurity.com; dkim=pass (signature was verified)
+ header.d=netwrksecurity.com;dmarc=pass action=none
+ header.from=netwrksecurity.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of netwrksecurity.com
+ designates 94.231.103.45 as permitted sender)
+ receiver=protection.outlook.com; client-ip=94.231.103.45;
+ helo=websmtp-out1.simply.com; pr=C
+Received: from websmtp-out1.simply.com (94.231.103.45) by
+ MW2NAM04FT014.mail.protection.outlook.com (10.13.31.34) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5612.13 via Frontend Transport; Wed, 7 Sep 2022 19:37:01 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:C3F1B06AF629ECBDA55D2A0FFB47ED0AF2CDFC718C04D0BF0A3A8E72CCF8EF49;UpperCasedChecksum:7005D9053D18E7F8DA5AE378D3139DF9E781EAA067752016489CDAB9C7431C69;SizeAsReceived:1066;Count:12
+Received: from netwrksecurity.com (unknown [10.10.49.81])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by websmtp.simply.com (Simply.com) with ESMTPSA id 4MNCF75Mr9zB0Q1j
+	for <phishing@pot.org>; Wed,  7 Sep 2022 21:36:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=netwrksecurity.com;
+	s=unoeuro; t=1662579419;
+	bh=eIfH3N5w/dYwg8zSkmAJhwzMJtwxg0r0DIw1PM5omOk=;
+	h=Date:To:From:Subject;
+	b=M+6TBCOszv4J7PJ9zsbjG5uoiB9zh47jHU665MBTMtY1Q0i4KyM9FN/gVrgE2mfPY
+	 rTtYiQCIZ2A2chPd6uWHWLYxi1C/MaqypWJEID4hLij7BoKzkGRl2oI/SPPj0CVpxa
+	 PFLpxTvQwPr0RYtOGFbcVMCGQASweQ72DHMnYPVg=
+Date: Wed, 7 Sep 2022 21:36:59 +0200
+To: phishing@pot.org
+From: Metamask_TeamSupport31612220446 <metamask-updates-action@netwrksecurity.com>
+Subject: Alerts
+Message-ID: <cYXojTcIMuRgMo3OaSdh1AdBl1vEakIefZlXkuw@netwrksecurity.com>
+X-Mailer: PHPMailer 6.0.7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-IncomingHeaderCount: 12
+Return-Path: metamask-updates-action@netwrksecurity.com
+X-MS-Exchange-Organization-ExpirationStartTime: 07 Sep 2022 19:37:01.3468
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ d1dd3820-4efb-48ce-59d5-08da910855e9
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: MW2NAM04FT014:EE_|MN0PR19MB6407:EE_
+X-MS-Exchange-Organization-AuthSource:
+ MW2NAM04FT014.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/7/2022 7:05:28 PM
+X-MS-Office365-Filtering-Correlation-Id: d1dd3820-4efb-48ce-59d5-08da910855e9
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 94.231.103.45
+X-SID-PRA: METAMASK-UPDATES-ACTION@NETWRKSECURITY.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Sep 2022 19:37:01.1281
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d1dd3820-4efb-48ce-59d5-08da910855e9
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ MW2NAM04FT014.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN0PR19MB6407
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:11.5752296
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5588.017
+Importance: high
+X-Priority: 1
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000305)(90000117)(90005022)(91005020)(91035115)(5061607266)(5061608174)(9050020)(9100338)(2008001134)(2008121020)(4810004)(4910033)(8810097)(9575002)(10195002)(9320005);
+X-Message-Info:
+	qZelhIiYnPlLkw+Vl9/v5nqKO6VYEbel3YzYvs8jztRBmrQpEfe8cN6brp7UeGvQKuKL/fdGw0IX5LBgAKnpGw3ZWJlzNg1TY29D+Qh/aOH2sXlvntfOd3ObWN1wzP9dnJjDPH1b+mygR7kvi5t6g4uH/pN+g32Ai0wfg/h4i8OFBfgDkS9FRipW0CKCGbns08JCHtgMUiex3ucJJeW/+w==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0yO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?UEdTV0R6UzRHaUtjREc3VlJiaG5DQ3JiTVlGS3JLVkFMSGJtVGFoYlVwaExy?=
+ =?utf-8?B?UE9vckFjbmd5eHpFYkRBaTJkeUVQQjNnNmFDSjVSclJFemdMZmpITU9UeFps?=
+ =?utf-8?B?b21uckwyZzg5U2kxL015d2REeVlJQU9yL04wOWpKb3VvakZHN3hkVzhZMmtS?=
+ =?utf-8?B?NGZ0aFZFYXYyRVJ1c2xxRU1wSExvMVo5ckxZbjkxMGlEZ0RpZjBrUHNSOUNw?=
+ =?utf-8?B?UFdYK2xnVmlzZjltWDg4MDhERmdnempUMklXSmExWklWREJGblZReHVaN1lF?=
+ =?utf-8?B?VE1PelE4ZlZ1ek96ZTMrRVdoTUpQbTZOeCs3eUhzVngwS05oZldJY1hUNVpU?=
+ =?utf-8?B?RkhSeGlJRWhGUEluVDFjSUtMRXUwYUcraHo1SVBJbW1WTCtYSHdNbWwxUXFY?=
+ =?utf-8?B?cmI3MkNqaXJlWFFZcUV2ZzVxQ0VxQXd1M0pORVplbDdmOWsvVlhIZnRheDZQ?=
+ =?utf-8?B?ODg2b09UdnI2TjJkbVpxay9ZOFNtbGU4YkhaanBxZDhDUzFxNit3UXdwbm9F?=
+ =?utf-8?B?OU0zeDR1K1gyOHN3cFFuNEFhVjVBVkZlN1UwUjYzK1FmdndQQlFKcWMyMWJl?=
+ =?utf-8?B?ZWJpakRRcFlSeXRCOTFTSEliTCtsRHRPc3JFdWxXNVBzMUZjOXQ4RjJERm1m?=
+ =?utf-8?B?bVYrQjdmenJLMTIwczlKbmpOelBERGhKRlhkQi9FZnFlSmJ3clhkWGtlRE9G?=
+ =?utf-8?B?RUFPbkZvNUxxNHRLZzR2bUVrMlJRQ24xZVFTbU1DbUx6SnlRT1V0OGpqZjlP?=
+ =?utf-8?B?QmQ1LzdlNStuVk5DcU1wcG1QZDh4MlAweGUzczVFWjk1QnYrRlZQSVhpWlZu?=
+ =?utf-8?B?VDVTM01RRnpOSW1QOWlTVktCVnBvWU1ZSWdZTFlpZVZtd3kreGtjZ3M3eDlj?=
+ =?utf-8?B?ZXlwUTl6Z1hjd1dLVUhyVVRGVDJBaXpneWJXeGRnRlVxdDdFK2NudlpWWGdT?=
+ =?utf-8?B?cEZSWmlkSEEzdjNDNmZ5dlRPZ3NVZ080aFNpZ0ljbDhSdjlHSmY0WGVjNVZy?=
+ =?utf-8?B?dVdDbVpPV0pmU2luRzdEalFDYWFIVmt2ZkIwVSs5WFl0VzNqdDNTN0ZCS2dz?=
+ =?utf-8?B?VTk3YnBUNE9pRmNoQzVtcmdaRDNQbzhMSVhSWTdVWjFNY25SZk1oYzRwcERS?=
+ =?utf-8?B?ZTdmQytZaS9JVHBzWjVLZzk0V213R24wZ1I5OWFkTk5OendYVE5mUzk4a1dh?=
+ =?utf-8?B?LzZLdER1RUQ2aGZTZ1hZZGFWNFNmNTkvSHdmWFBWN3A4WVRMNk1DOWhhTXNQ?=
+ =?utf-8?B?S3pMOERTcHZ0ZjNQVnlobW1mdTVVYWtOQ3lkMXEzdHNRU2FkTXhxSVJTdlZP?=
+ =?utf-8?B?Q2MyRjd4TGxoQ28ydjNTZGRFTDJ5YWJFYWRtUXJKKzRUdlJ0ZkRLUkRmTEJu?=
+ =?utf-8?B?YTdGbEVFSm0wUkkyTjZQUkhpb0QyZ2NZak5SQkZReisrelBCZVVHT21SWDRL?=
+ =?utf-8?B?TWU0NThrakswanovMkVRUExpRFFDVEdyclNBUld6VFdYVWh5U2dtMlFWZ3JG?=
+ =?utf-8?B?alpZU0xOeVZIbUhPM0tQY05IMU5GUkNzbWJMVllBeGd6T3BQZHp2c3hHY09W?=
+ =?utf-8?B?dERZMVZQcy9QK3dleUVnbnEvR1FEWnNLVHpKc2Nuc2dZTUR4RlBpRHFnTEc5?=
+ =?utf-8?B?bExpN1NhbTRDMFM5VTFMY0hJczNLK1JERHZ6bFVoNVV2STVma2FDZXFPa1RI?=
+ =?utf-8?B?QzMzR1ZMUEdqTUJCeTZiNEtQaVF6RE11c2xpcGNja1pPVEx6UG9YeU01R0RC?=
+ =?utf-8?B?U2NBWlRrZUt6TU5yMkEvc0xPY0hmREJFY2F5dDNVcEk3WjhWbVo2RDVuZldj?=
+ =?utf-8?B?OFBDOXBndjlZTEoyTzZFcTJkWEFqWHFUU2t3ZzFXT1kwU0lyVHpucEhZeFkx?=
+ =?utf-8?B?RFBMK3lIQ3dMYThnSzEveEtyNWFhV3VxdjlIaTFIaFA4b01iQm4xazcwUUxP?=
+ =?utf-8?B?ZS94WCs0Vittc0xvNFQ2OEJaT1ZmZnZIWnR2akgyQWIycVpGazUySUNaQUNU?=
+ =?utf-8?B?QnRpKzFBMEl1Q0JVaWg5T1Qxd1dlQ3BCano4Q3FzaEZFTjgveXgvYXVDNXJo?=
+ =?utf-8?B?OXlBZWd0RzcyMzljeGxQeUNBOUljWFhJSG54cUs3d0gxNDVCNlZ4MFlvRElE?=
+ =?utf-8?Q?XZRPNlwzLprgY69MdLZs553Fa?=
+MIME-Version: 1.0
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+>Support-38f0b89878ebb3fd975ad6831eaa2928</p>
+<table class=3D"x_x_hse-body-wrapper-table" style=3D"border-spacing: 0px!im=
+portant; border-collapse: collapse; margin: 0px; padding: 0px; width: 100%!=
+important; min-width: 320px!important; height: 100%!important;" role=3D"pre=
+sentation" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td class=3D"x_x_hse-body-wrapper-td" style=3D"border-collapse: collapse; f=
+ont-family: Arial,sans-serif; font-size: 15px; color: #23496d; word-break: =
+break-word;" valign=3D"top">
+<div id=3D"x_x_hs_cos_wrapper_main" class=3D"x_x_hs_cos_wrapper x_x_hs_cos_=
+wrapper_widget x_x_hs_cos_wrapper_type_dnd_area" style=3D"color: inherit; f=
+ont-size: inherit; line-height: inherit;">
+<div id=3D"x_x_section-0" class=3D"x_x_hse-section x_x_hse-section-first" s=
+tyle=3D"padding-left: 10px; padding-right: 10px; padding-top: 20px;">
+<div class=3D"x_x_hse-column-container" style=3D"min-width: 280px; max-widt=
+h: 600px; width: 100%; margin-left: auto; margin-right: auto; border-collap=
+se: collapse; border-spacing: 0; padding-bottom: 10px; padding-top: 10px;">
+<h1 style=3D"margin: 0; font-size: 20px; line-height: 175%;"><img style=3D"=
+display: block; margin-left: auto; margin-right: auto;" src=3D"data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAMgCAYAAADbcAZoAAAABGdBTUEAALGPC/xhB=
+QAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/=
+AP+gvaeTAACAAElEQVR42uzdd5hd1X0v/O9ae586VaNpmlEZdUCAK8YgRK8uVAsndkzsFOfe3Bv=
+f+CYIO7l537nxtY0EjvPEN8lrpzg2cQHcwPRmkCim2UggUEVtVKb3U/de6/3jzKiMppx+dvl+ni=
+exMUKMfrut716/tTZARERERERERERERERERERERERERERERERERERERERERERERERERERERERER=
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE=
+RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER=
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE=
+RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER=
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE=
+RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER=
+ERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE=
+RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER=
+AAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwNrz/wH3wFwiqbAt+QAAACV0RVh0ZGF0ZTpjcmV=
+hdGUAMjAxOS0wOC0xMVQxMToyNzoyMiswMDowMNvu1kcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMT=
+ktMDgtMTFUMTE6Mjc6MjIrMDA6MDCqs277AAAAAElFTkSuQmCC" alt=3D"" width=3D"19" h=
+eight=3D"19" data-imagetype=3D"DataUri"></h2>
+<h2 style=3D"text-align: center;"><strong>All unverified wallets will be te=
+rminated on </strong><strong>Monday, September 12, 2022 </strong></h2>
+<p style=3D"text-align: left;">We are carrying out a routine check on all u=
+nverified wallets on our platform. Verify your wallet with<strong> MetaMask=
+</strong> to avoid termination:</p>
+<p style=3D"text-align: center;"><a style=3D"font-family: Helvetica,Arial,s=
+ans-serif; font-size: 12px; color: #00a4bd; font-weight: normal; text-decor=
+ation: underline; font-style: normal;" href=3D"https://420.bio/NtRIA" targe=
+t=3D"_blank" rel=3D"noopener noreferrer" data-auth=3D"NotApplicable" data-l=
+inkindex=3D"0">Click here to start the verification process</a></p>
+<p style=3D"text-align: center;">Or</p>
+<p style=3D"text-align: center;">Scan the code bellow and follow the steps:=
+</p>
+<p style=3D"text-align: left;"><strong>Android : </strong>On your compatibl=
+e Android phone or tablet, open the built-in camera app.Point the camera at=
+ the QR code.Tap the banner that appears on your Android phone or tablet.Fo=
+llow the instructions on the screen to finish signing in.&nbsp;<strong><br =
+aria-hidden=3D"true">&nbsp;- IOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+: </strong>On your compatible iPhone or iPad, open the built-in camera app.=
+ Point the camera at the QR code. Tap the banner that appears on your iPhon=
+e or iPad. Follow the instructions on the screen to finish signing in.</p>
+<div style=3D"padding-top: 32px; text-align: center;"><span style=3D"font-s=
+ize: 14px;"><img src=3D"https://i.ibb.co/XyxFpcn/Screenshot-2022-08-26-at-1=
+8-07-03-QR-Code-Generator-Create-Your-Free-QR-Codes.png" width=3D"116" heig=
+ht=3D"116" data-imagetype=3D"External"></span></div>
+<div style=3D"padding-top: 32px; text-align: center;">There=E2=80=99ll be m=
+ore coming soon--stay safe out there!</div>
+<div style=3D"padding-top: 32px; text-align: center;">
+<p style=3D"line-height: 175%; font-weight: bold;">The MetaMask Team</p>
+<p dir=3D"lrt" style=3D"font-family: Arial,sans-serif; font-size: 12px; fon=
+t-weight: normal; text-decoration: none; font-style: normal; color: #23496d=
+; direction: lrt;">ConsenSys, 49 Bogart St, New York, NY 11206, United Stat=
+es</p>
+<p dir=3D"lrt" style=3D"font-family: Arial,sans-serif; font-size: 12px; fon=
+t-weight: normal; text-decoration: none; font-style: normal; color: #23496d=
+; direction: lrt;">phishing@pot.org</p>
+<p dir=3D"lrt" style=3D"font-family: Arial,sans-serif; font-size: 12px; fon=
+t-weight: normal; text-decoration: none; font-style: normal; color: #23496d=
+; direction: lrt;">09/07/2022 09:36:59 pm</p>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
