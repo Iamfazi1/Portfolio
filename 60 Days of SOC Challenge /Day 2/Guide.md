@@ -1,4 +1,10 @@
 
+<p align="center">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Funny Computer GIF" />
+</p>
+
+
+
 # Task - Log Analysis Basics: Windows Security Logs
 
 In this task, you will perform a basic log analysis by reviewing Windows Security logs. This will help you understand how to track logon events and detect suspicious activity in the system.
@@ -95,4 +101,7 @@ In this task, we will:
 - **Event ID 4625**: Failed logon attempt.
 - Key fields to analyze: **Account Name**, **Logon Type**, **Source IP Address**.
 - Identifying suspicious logon patterns can help detect unauthorized access attempts or attacks.
-
+---
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Data Processing GIF" />
+</p>
