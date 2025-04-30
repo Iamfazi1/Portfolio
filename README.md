@@ -46,6 +46,19 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
   I took real phishing emails sourced from the dark web, analyzed their structure, payloads, and tactics, and reported on their false positives and negatives. This analysis provides a critical look into the methods used by cybercriminals.
 </p>
 
+
+<p align="center">
+  <a href="https://github.com/Iamfazi1/faizan-email-analyzer" 
+     style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px; font-family: 'Arial', sans-serif;">
+    📧 Faizan Email Analyzer
+  </a>
+</p>
+
+<p align="center" style="font-size: 18px; font-weight: bold; color: #333; font-family: 'Arial', sans-serif;">
+  A web-based tool to analyze phishing emails. It supports `.eml` and `.msg` file formats, extracting critical metadata, checking file hashes, validating SPF, DKIM, and DMARC, and assessing phishing risk. Users can download detailed reports for further analysis, with PDF support coming soon. Ideal for SOC analysts and cybersecurity professionals.
+</p>
+
+
 <p align="center">
   <a href="https://github.com/Iamfazi1/Portfolio/tree/main/Malware%20Analysis%20" 
      style="background-color: #39ff14; color: #0a0a0a; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; display: inline-block; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease, background-color 0.3s ease; font-size: 16px; font-family: 'Arial', sans-serif;">
