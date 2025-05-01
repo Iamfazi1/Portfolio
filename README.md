@@ -55,7 +55,7 @@ Check out my reports, analysis, and the occasional *not-so-serious* project. I'm
 </p>
 
 <p align="center" style="font-size: 18px; font-weight: bold; color: #333; font-family: 'Arial', sans-serif;">
-  A web-based tool to analyze phishing emails. It supports `.eml` and `.msg` file formats, extracting critical metadata, checking file hashes, validating SPF, DKIM, and DMARC, and assessing phishing risk. Users can download detailed reports for further analysis, with PDF support coming soon. Ideal for SOC analysts and cybersecurity professionals.
+  A powerful web application designed to assist SOC analysts and cybersecurity professionals in analyzing suspicious emails. It supports both .eml and .msg file formats, automatically extracting key metadata such as sender/receiver details, IP addresses, and embedded links. The tool performs hash checks, and validates SPF, DKIM, and DMARC records to help determine email authenticity. It also provides an initial phishing risk assessment. Users can download structured analysis reports, with PDF export functionality.
 </p>
 
 
