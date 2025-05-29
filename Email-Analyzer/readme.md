@@ -59,7 +59,7 @@ A powerful email analysis tool built to assist SOC analysts and incident respond
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run Locally (Sorry folks I decided to make it private for now )
 1. Clone the repo:
    ```bash
    git clone https://github.com/Iamfazi1/faizan-email-analyzer.git
