@@ -1,121 +1,107 @@
+
 # 📅 Day 2 – Meet the Log Family: Index, Sourcetype & Host
 
-## 🗓️ Welcome Back, Data Detective
-
-You survived Day 1 — congrats. Today we’re digging into **what those logs actually are** and **where they come from**. Because let’s be honest, searching `index=*` is cool and all... until you realize you have no clue what any of it means.
-
-Time to meet the trio that keeps everything (barely) organized in Splunk: `index`, `sourcetype`, and `host`.
-
----
-
-## 🎯 What’s the Goal Today?
-
-Understand what the heck these mean:
-
-* **index** – Where the logs are stored
-* **sourcetype** – What kind of logs they are
-* **host** – Where the logs came from
-
-By the end of this, you’ll stop saying “What am I even looking at?” every time you run a search.
-
----
-
-## 🧪 Lab Setup (Same as Yesterday — Don’t Skip This)
-
-If Splunk isn’t running, pick your fighter:
-
-* [Splunk Free Trial](https://www.splunk.com/en_us/download.html)
-* [Splunk 101 Room on TryHackMe](https://tryhackme.com/room/splunk101)
-* Local install on Kali/Windows
-
-Once you’re in, you’re ready.
-
----
-
-## 🕵️‍♂️ Step-by-Step Breakdown
-
-### ✅ Step 1: Run the Usual Search
-
-Paste this in the search bar:
-
-```spl
-index=*
-```
-
-Boom — a flood of logs. We’ve seen this before.
-
-
-
-Now it’s time to decode the madness.
-
----
-
-### ✅ Step 2: Look at the Left Sidebar (aka the "Fields Panel")
-
-You’ll see fields like:
-
-* `host`
-* `sourcetype`
-* `source`
-
-These are your **keys to understanding** what the heck is going on in your logs.
-
-
 <p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Clicking through logs like a pro" />
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Searching logs" />
 </p>
 
+---
 
-Click on any of those to filter your logs by that value. It’s like going from total chaos to “Ohhh okay, now I get it.”
+## 🏷️ What Are Index, Sourcetype, and Host?
+
+Before diving in, let’s break down these three Splunk keywords — because you'll use them in almost every search:
+
+| Field          | What It Means                            | Real-World Analogy                        | Example Search Syntax       |
+| -------------- | ---------------------------------------- | ----------------------------------------- | --------------------------- |
+| **Index**      | The storage location (bucket) for logs   | Filing cabinet (e.g. Sales, HR, IT files) | `index=security_logs`       |
+| **Sourcetype** | The format/type of the incoming log data | Type of document (Invoice, Resume, Alert) | `sourcetype=aws:cloudtrail` |
+| **Host**       | The system or device that sent the log   | Sender of the document (PC, Server, etc.) | `host="web-02-server"`      |
+
+✨ **Simple Analogy**:
+
+* **Index** = Folder the log goes into
+* **Sourcetype** = What kind of paper it is
+* **Host** = Who sent it
 
 ---
 
-### ✅ Step 3: Break Down the Big Three
+## 🧭 Situation: You’re New and Need to Explore What’s in Splunk
 
-Let’s decode what each one means:
+Let’s say you’ve just started in a new SOC role.
 
-🧱 **Index**: Think of this like a folder full of logs. Different types of logs go into different indexes — kinda like sorting memes into folders. Helps you stay organized.
+You open Splunk and realize… you have **no idea** what logs are coming in.
 
-🗂️ **Sourcetype**: This tells Splunk what kind of data it’s looking at. Apache logs? Windows Event Logs? Syslog? This is the label for the type of data.
+You don’t know what **indexes** are available, and you don’t know what **sourcetypes** are in use.
 
-💻 **Host**: This one’s easy — it’s the machine or device that sent the log. Could be an IP, a hostname, or some box in your lab that won’t stop screaming.
+💡 That’s okay — Splunk has your back.
+
+To discover this, you can run two simple commands to list **all available indexes** and the **sourcetypes each one contains**.
 
 ---
 
-### ✅ Step 4: Play Around With It
+## 🔍 How to List Indexes and Sourcetypes in Your Splunk
 
-Try searching for specific values from your fields:
+Here’s the quick command that gives you both indexes and their sourcetypes in one table:
 
 ```spl
-index=* sourcetype=YOUR_SOURCETYPE
+| tstats values(sourcetype) as sourcetypes where index=* by index
 ```
 
-```spl
-index=* host=YOUR_HOST
-```
+🧾 **What This Does:**
 
-Swap in actual values from your logs. Watch how it filters things beautifully.
+* `tstats` — a super-fast command that works on indexed data.
+* `values(sourcetype)` — grabs all sourcetypes seen in each index (no count, just unique names).
+* `where index=*` — filters data from all indexes.
+* `by index` — groups the results by each index name.
+
+This gives you a clean table like:
+
+| index          | sourcetypes                           |
+| -------------- | ------------------------------------- |
+| security_logs  | WinEventLog:Security, xmlwineventlog |
+| aws            | aws:cloudtrail, aws:s3              |
+| firewall_logs  | cisco:asa, palo:traffic             |
+
+📌 **Don’t worry about how `tstats` works in detail — we’ll break it down in future lessons. For now, just think of it as your Splunk radar scanner.**
 
 ---
 
-### ✅ Bonus Flex: Use a Table
+## 🔎 How to Know What Logs Are Stored Under Each Sourcetype?
 
-Want to look fancy? Use this:
+Now you might ask:
+**“Okay... so I know my indexes and sourcetypes, but how do I know what kind of logs are inside them?”**
 
-```spl
-index=* | table _time, host, sourcetype, source
-```
-
-Now it looks like you actually know what you're doing.
+It’s actually a bit complex (since every company configures Splunk differently), but here are some **typical log types and their matching sourcetypes** used in most environments:
 
 ---
 
-## 🧾 What You Learned Today (a.k.a. More Brain Muscles)
+## 🧠 Common Sourcetypes Based on Log Category
 
-✅ What `index`, `sourcetype`, and `host` actually mean
-✅ How to find them using the sidebar
-✅ How to filter searches using them
-✅ That you're already smarter than you were 10 minutes ago
+| Log Category    | Typical Sourcetypes              | Example Events                |
+| --------------- | -------------------------------- | ----------------------------- |
+| **Firewall**    | `cisco:asa`, `palo:traffic`      | "Deny TCP", URL filtering     |
+| **Windows**     | `WinEventLog:Security`, `System` | EventCode 4625 (Failed Login) |
+| **Web Servers** | `apache:access`, `iis:www`       | POST requests, 500 errors     |
+| **Databases**   | `mysql:error`, `mssql:audit`     | Deadlocks, failed logins      |
+  
+</p>
 
-Tomorrow? We start making this thing work for you with filtering and time ranges. You're gonna love it (or at least pretend you do).
+🎯 **Quick Lookup Tips:**
 
+* Want login activity? → Try `WinEventLog:Security`
+* Want blocked traffic? → Try `cisco:asa` or `palo:traffic`
+* Want website issues? → Try `apache:access` or `iis:www`
+
+---
+
+## ✅ Day 2 Summary – Getting Oriented in Splunk
+
+* 🧭 Use the `tstats` command to explore all available indexes and their sourcetypes.
+* 🏷️ Understand the three core metadata fields:
+
+  * `index` — where the log is stored
+  * `sourcetype` — what kind of log it is
+  * `host` — where the log came from
+* 📚 Use the sourcetype cheat sheet above to understand what type of logs you’re looking at.
+
+➡️ **Next stop:** Learn how to filter by time.
