@@ -56,13 +56,33 @@ Here’s the quick command that gives you both indexes and their sourcetypes in 
 
 This gives you a clean table like:
 
-| index          | sourcetypes                           |
+<div align="center">
+
+| Index          | Sourcetypes                           |
 | -------------- | ------------------------------------- |
 | security_logs  | WinEventLog:Security, xmlwineventlog |
-| aws            | aws:cloudtrail, aws:s3              |
-| firewall_logs  | cisco:asa, palo:traffic             |
+| aws            | aws:cloudtrail, aws:s3               |
+| firewall_logs  | cisco:asa, palo:traffic              |
+
+</div>
 
 📌 **Don’t worry about how `tstats` works in detail — we’ll break it down in future lessons. For now, just think of it as your Splunk radar scanner.**
+
+---
+
+
+## 🖱️ Manual Discovery via Splunk UI (For Clickers, Not Typers)
+
+If you’re new to Splunk and don’t feel like using SPL commands (the Sigma-style way) to find what indexes and sourcetypes are available — **you can also explore them manually through the Splunk interface**.
+
+📌 Check out the practical walkthrough [here](https://github.com/Iamfazi1/Portfolio/blob/main/30%20Days%20of%20Splunk%20/Day%202%20/practical.md) — it shows exactly how to do this in the UI without writing a single line of SPL.
+
+Use this approach when:
+- You’ve just landed in a new Splunk environment
+- You want to quickly peek at the available logs
+- You’re not yet confident with search commands
+
+> 🔓 Whether you click or query — your mission is the same: find out what kind of data lives inside Splunk before you start hunting.
 
 ---
 
@@ -77,14 +97,17 @@ It’s actually a bit complex (since every company configures Splunk differently
 
 ## 🧠 Common Sourcetypes Based on Log Category
 
+<div align="center">
+
 | Log Category    | Typical Sourcetypes              | Example Events                |
 | --------------- | -------------------------------- | ----------------------------- |
 | **Firewall**    | `cisco:asa`, `palo:traffic`      | "Deny TCP", URL filtering     |
 | **Windows**     | `WinEventLog:Security`, `System` | EventCode 4625 (Failed Login) |
 | **Web Servers** | `apache:access`, `iis:www`       | POST requests, 500 errors     |
 | **Databases**   | `mysql:error`, `mssql:audit`     | Deadlocks, failed logins      |
-  
-</p>
+
+</div>
+
 
 🎯 **Quick Lookup Tips:**
 
